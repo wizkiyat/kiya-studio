@@ -296,3 +296,13 @@ footer p {
     text-align: center;
   }
 }
+
+/* Kiya+ Studio homepage logo */
+.hero-logo {
+    display: block;
+    width: min(430px, 85vw);
+    max-height: 350px;
+    height: auto;
+    object-fit: contain;
+    margin: 0 auto;
+}
