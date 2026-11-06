@@ -306,3 +306,87 @@ footer p {
     object-fit: contain;
     margin: 0 auto;
 }
+
+/* KIYA+ STUDIO - BLACK, WHITE & RED */
+
+:root {
+  --bg: #ffffff;
+  --surface: #f7f7f7;
+  --text: #111111;
+  --muted: #666666;
+  --accent: #e32636;
+  --border: #e5e5e5;
+}
+
+body {
+  background: #ffffff;
+  color: #111111;
+}
+
+.header {
+  background: rgba(255,255,255,.96);
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.hero {
+  background: #ffffff;
+}
+
+.eyebrow {
+  color: #e32636;
+}
+
+.brand span,
+h1 span,
+h2 span {
+  color: #e32636;
+}
+
+nav a:hover {
+  color: #e32636;
+}
+
+.primary-btn {
+  background: #e32636;
+  color: #ffffff;
+  border-radius: 4px;
+}
+
+.primary-btn:hover {
+  background: #bd1e2d;
+}
+
+.filter.active,
+.filter:hover {
+  background: #e32636;
+  color: #ffffff;
+  border-color: #e32636;
+}
+
+.work-card {
+  background: #ffffff;
+  border-color: #e5e5e5;
+}
+
+.work-card:hover {
+  border-color: #e32636;
+}
+
+.work-placeholder {
+  background: #f1f1f1;
+  color: #e32636;
+}
+
+.about {
+  background: #f7f7f7;
+}
+
+.contact {
+  background: #ffffff;
+  border-top: 1px solid #e5e5e5;
+}
+
+footer {
+  background: #ffffff;
+  border-top: 1px solid #e5e5e5;
+}
